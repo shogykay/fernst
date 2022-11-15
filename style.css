@@ -335,13 +335,15 @@ button:hover {
   body {
     padding: 0 5px;
   }
-
-  .box-1 {
-    margin: auto auto 4rem;
+  
+  .clara{
+    width: 100%;
+    text-align: center;
+    position: relative;
   }
-
-  .box-2 {
-    margin: auto;
+  .clara img{
+    width: 90%;
+    margin-right: .7rem;
   }
 
   .bg {
@@ -365,6 +367,10 @@ button:hover {
 
   .nav ul {
     right: 1rem;
+  }
+  
+  .box-1 {
+    line-height: 2;
   }
 
   .box-2 {
