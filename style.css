@@ -407,7 +407,9 @@ button:hover {
 @media (max-height:500px) and (orientation:landscape) {
   .title {
   }
-
+.box-1 {
+    line-height: 2;
+  }
   .bundle-woman {
     padding: 2rem auto;
   }
@@ -432,9 +434,7 @@ button:hover {
 
 @media (min-width:501px) and (max-width: 880px) and (orientation:portrait) {
   .box-1 {
-    width: 80%;
-    margin: 0 auto 3rem;
-    padding: 0;
+    line-height: 2;
   }
 
   .bg {
@@ -494,9 +494,7 @@ button:hover {
 /* mediq query medium screens */
 @media (min-width:881px) and (max-width:1199px) and (orientation:portrait) {
   .box-1 {
-    width: 80%;
-    margin: 0 auto 5rem;
-    padding: 0;
+    line-height: 2;
   }
 
   .logo {
